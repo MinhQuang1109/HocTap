@@ -1,0 +1,44 @@
+body{
+    background-image: url("https://img2.thuthuatphanmem.vn/uploads/2019/03/02/hinh-nen-powerpoint-mau-xanh-duong_012323932.jpg");
+}
+form{
+    border: 1px solid gray;
+    margin-left: 400px;
+    margin-right: 450px;
+    text-align: center;
+    background-color: rgba(187, 228, 245, 0.461);
+}
+
+#dv1{
+    font-size: 25px;
+    background-color: rgb(130, 165, 241);
+}
+
+#dv2{
+    margin-bottom: 10px;
+}
+
+.ip1{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.ip2{
+    margin-left: 63px
+}
+
+.ip3{
+    margin-left: 5px;
+}
+
+.ip4{
+    margin-left: 85px;
+}
+
+button{
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background-color: rgb(87, 113, 239);
+    color: white;
+    font-size: 16px;
+}

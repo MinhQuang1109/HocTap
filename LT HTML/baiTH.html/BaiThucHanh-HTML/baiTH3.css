@@ -1,0 +1,63 @@
+#divtong{
+    border: 2px solid gray;
+    margin-right: 400px;
+    margin-left: 400px;
+    background-color: rgb(255, 192, 218);
+}
+
+#bt{
+    border: 1px  solid gray;
+    border-radius: 3px;
+    background-color: rgb(231, 69, 182);
+    color: white;
+    text-align: right;
+    margin-left: 260px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+label{
+    color: rgb(202, 8, 160);
+}
+#lb1{
+    color: rgb(202, 8, 160);
+    margin-left: 15px;
+}
+
+h2{
+    margin-left: 15px;
+}
+#div1{
+    margin-bottom: 10px;
+    background-color: rgb(248, 212, 231);
+    color: white;
+}
+
+#div2{
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+#div3{  
+    height: 40px;
+    text-align: right;
+}
+
+input{
+    border: 1px  solid gray;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 3px;
+    width: 250px;
+    height: 23px; 
+}
+
+#input2{
+    border: 1px solid gray;
+    border-radius: 3px ;
+    background-color: rgb(231, 69, 182);
+    color: white;
+    width: 50px;
+    height: 25px;
+}

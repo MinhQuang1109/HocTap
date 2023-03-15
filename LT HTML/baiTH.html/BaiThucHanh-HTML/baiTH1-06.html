@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h2>Calculator</h2>
+    Nhập n1: <input type="text" id="n1">
+    <br>
+    <br>
+    Nhập n2: <input type="text" id="n2">
+    <br>
+    <br>
+    Phép toán:
+    <select id="Pt">
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+    </select>
+    <br>
+    <br>
+    Kết quả: <input type="text" id="Kq">
+    <button onclick="tinh">Tính</button>
+
+    <script type="text/javascript">
+        function tinh(){
+        var n1 = document.getElementById('n1').value;
+        var n2 = document.getElementById('n2').value;
+        var phepToan = document.getElementById('Pt').value;
+        var ketQua = 0;
+        if(phepToan == "+"){
+            ketQua = parseInt(n1) + parseInt(n2);
+            document.getElementById('Kq').value;
+        }
+            else if(phepToan == "-"){
+            ketQua = parseInt(n1) - parseInt(n2);
+            document.getElementById('Kq').value = ketQua;
+        }
+
+            else if(phepToan == "*"){
+            ketQua = parseInt(n1) * parseInt(n2);
+            document.getElementById('Kq').value = ketQua;
+        }
+
+            else if(phepToan == "/"){
+            ketQua = parseInt(n1) / parseInt(n2);
+            document.getElementById('Kq').value = ketQua;
+        }
+
+        else{
+            if(n2 == 0)
+                alert("Không thể chia cho 0");
+            else
+                ketQua = parseInt(n1) / parseInt(n2);
+                document.getElementById('Kq').value = ketQua;
+        }
+    }
+        
+    </script>
+</body>
+</html>

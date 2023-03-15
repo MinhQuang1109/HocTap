@@ -1,0 +1,10 @@
+D:\LT Desktop\Form1\Form1\bin\Debug\Form1.exe.config
+D:\LT Desktop\Form1\Form1\bin\Debug\Form1.exe
+D:\LT Desktop\Form1\Form1\bin\Debug\Form1.pdb
+D:\LT Desktop\Form1\Form1\obj\Debug\Form1.csproj.AssemblyReference.cache
+D:\LT Desktop\Form1\Form1\obj\Debug\Form1.Form1.resources
+D:\LT Desktop\Form1\Form1\obj\Debug\Form1.Properties.Resources.resources
+D:\LT Desktop\Form1\Form1\obj\Debug\Form1.csproj.GenerateResource.cache
+D:\LT Desktop\Form1\Form1\obj\Debug\Form1.csproj.CoreCompileInputs.cache
+D:\LT Desktop\Form1\Form1\obj\Debug\Form1.exe
+D:\LT Desktop\Form1\Form1\obj\Debug\Form1.pdb

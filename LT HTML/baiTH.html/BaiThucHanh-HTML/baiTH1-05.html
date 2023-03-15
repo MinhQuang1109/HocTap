@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="messenger"> Click on one of the radio buttons to see a messenger
+    <label>1:</label><input id="r1" type="radio" name="rd">
+    <label>2:</label><input id="r2" type="radio" name="rd">
+    <label>3:</label><input id="r3" type="radio" name="rd">
+    </div>
+
+    <script>
+        const r1 = document.getElementById("r1");
+        const r2 = document.getElementById("r2");
+        const r3 = document.getElementById("r3");
+        const messenger = document.getElementById("messenger")
+
+        r1.onclick = function(){
+            messenger.textContent = "Tôi là số 1 cảm ơn đã chọn tôi";
+        }
+
+        r2.onclick = function(){
+            messenger.textContent = "Tôi là số 2 cảm ơn đã chọn tôi";
+        }
+
+        r3.onclick = function(){
+            messenger.textContent = "Tôi là số 3 cảm ơn đã chọn tôi";
+        }
+    </script>
+</body>
+</html>

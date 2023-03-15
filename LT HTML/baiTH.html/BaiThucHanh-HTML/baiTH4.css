@@ -1,0 +1,48 @@
+body{
+    border:double;
+    border-top-color: red;
+    border-bottom-color: red;
+    border-left-color: blue;
+    border-right-color: blue;
+    
+}
+label{
+    color: red;
+}
+
+div{
+    margin-left: 100px;
+}
+
+table{    
+    margin-left: 200px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+table, tr, td{
+    text-align: center;
+    border: 2px solid gray;
+    border-collapse: collapse;
+    border-top-color: rgb(241, 206, 214);
+    border-bottom-color: rgb(241, 206, 214);
+    border-left-color: rgb(241, 206, 214);
+    border-right-color: rgb(241, 206, 214);
+    
+}
+
+.td1{
+    text-align: left;
+    background-color: rgb(171, 239, 239);
+    color: rgb(233, 44, 44);
+}
+
+.td2{
+    text-align: left;
+    background-color: rgb(253, 231, 251);
+}
+
+.td3{
+    text-align: left;
+    
+}
